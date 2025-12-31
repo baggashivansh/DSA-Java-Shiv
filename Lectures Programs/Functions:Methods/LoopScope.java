@@ -22,9 +22,19 @@ public class LoopScope {
             System.out.println();
             System.out.println("I am outside the scope still accessible ");
             System.out.print(i+" "); //this will give 6 as output
+            System.out.println("This c will give 1000 as output ");
+
+            //initialised inside the box still can be initialised again outside the scope
+            int c = 1000;
+            System.out.println(c);
+
         }
-        System.out.println();
-        System.out.print(i+" "); //this will give 6 as output
+        System.out.println("this c will give 2 as output");
+        int c= 2;
+        System.out.println(c);
+
+        System.out.println("this will give 6 as output");
+        System.out.print(i+" ");
 
 
     }
@@ -33,4 +43,4 @@ public class LoopScope {
 
 //IN SIMPLEST FORM ANYTHING THAT IS INITIALISED OUTSIDE CAN BE USED INSIDE
 //BUT
-// ANYTHING THAT IS INITIALIZED INSIDE CANNOT BE USED OUTSIDE
+// ANYTHING THAT IS INITIALIZED INSIDE CANNOT BE USED OUTSIDE BUT CAN BE INITIALISED OUTSIDE THE BOX
