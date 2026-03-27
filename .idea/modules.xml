@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DSA-Java-Shiv.iml" filepath="$PROJECT_DIR$/.idea/DSA-Java-Shiv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lectures Programs/Functions/Functions.iml" filepath="$PROJECT_DIR$/Lectures Programs/Functions/Functions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lectures Programs/Lectures Programs.iml" filepath="$PROJECT_DIR$/Lectures Programs/Lectures Programs.iml" />
+    </modules>
+  </component>
+</project>

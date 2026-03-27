@@ -24,11 +24,5 @@ public class Inputs {
         System.out.print("Enter the long value: ");
         long numbers = input.nextLong();
         System.out.println("The Long numbers value is "+numbers);
-
-
-
-
-
-
     }
 }
